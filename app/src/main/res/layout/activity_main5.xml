@@ -133,84 +133,89 @@
                 </LinearLayout>
             </ScrollView>
 
-            <LinearLayout
+            <Button
+                android:id="@+id/compbtn"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"
+                android:background="#81BEF7"
+                android:text="선택 완료"
+                android:textColor="#000"
+                tools:ignore="HardcodedText" />
 
-                <Button
-                    android:id="@+id/compbtn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="#81BEF7"
-                    android:text="선택 완료"
-                    android:textColor="#000"
-                    tools:ignore="HardcodedText" />
-
-                <ImageView
-                    android:id="@+id/imageView1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/tom3"
-                    android:visibility="invisible"
-                    tools:ignore="ContentDescription" />
-            </LinearLayout>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tom3"
+                android:visibility="invisible"
+                tools:ignore="ContentDescription" />
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView4"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="↓페이지 이동↓"
-            android:textAlignment="center"
-            android:textColor="#000"
-            android:textSize="50px"
-            tools:ignore="HardcodedText,PxUsage"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="0dp" />
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/button11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#00000000"
-            android:onClick="Two"
-            android:text="체크박스"
-            android:textColor="#045FB4"
-            android:textSize="40px"
-            android:textStyle="bold"
-            tools:ignore="HardcodedText,PxUsage"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="0dp" />
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:onClick="Thr"
+                android:text="시간 달력"
+                android:textColor="#045FB4"
+                android:textSize="40px"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,PxUsage"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
 
-        <Button
-            android:id="@+id/button12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#00000000"
-            android:onClick="Thr"
-            android:text="시간 달력"
-            android:textColor="#045FB4"
-            android:textSize="40px"
-            android:textStyle="bold"
-            tools:ignore="HardcodedText,PxUsage"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="0dp" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:onClick="Fou"
+                android:text="자기소개"
+                android:textColor="#045FB4"
+                android:textSize="40px"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,PxUsage"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
 
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#00000000"
-            android:onClick="Fou"
-            android:text="자기소개"
-            android:textColor="#045FB4"
-            android:textSize="40px"
-            android:textStyle="bold"
-            tools:ignore="HardcodedText,PxUsage"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="0dp" />
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:onClick="Two"
+                android:text="체크박스"
+                android:textColor="#045FB4"
+                android:textSize="40px"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,PxUsage"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/hidebtn"
+                android:layout_toEndOf="@+id/snum"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:onClick="Six"
+                android:text="프레그먼트\n가기"
+                android:textColor="#045FB4" />
+
+        </LinearLayout>
+
     </LinearLayout>
 
 

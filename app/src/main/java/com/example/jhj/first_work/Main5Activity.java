@@ -98,5 +98,10 @@ public class Main5Activity extends AppCompatActivity {
         Intent i = new Intent(this , Main4Activity.class);
         startActivity(i);
     }
+
+    public void Six(View vi){
+        Intent i = new Intent(this , FragmentExampleActivity.class);
+        startActivity(i);
+    }
 }
 

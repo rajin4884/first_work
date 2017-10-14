@@ -85,6 +85,11 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
         startActivity(i);
     }
 
+    public void Six(View vi){
+        Intent i = new Intent(this , FragmentExampleActivity.class);
+        startActivity(i);
+    }
+
     @Override
     public void onClick(View v) {
         dptv.setText("선택된 날짜: \n");

@@ -95,6 +95,8 @@ public class Main4Activity extends AppCompatActivity implements View.OnClickList
 
 
 
+
+
     //다이얼로그
     @Override
     public void onClick(View v) {

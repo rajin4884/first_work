@@ -134,6 +134,17 @@
             android:visibility="invisible"
             tools:ignore="HardcodedText" />
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Six"
+            android:background="#00000000"
+            android:textColor="#EB0A0A"
+            android:text="프레그먼트\n가기"
+            android:layout_above="@+id/hidebtn"
+            android:layout_toEndOf="@+id/snum" />
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

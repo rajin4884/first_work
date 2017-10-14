@@ -56,7 +56,6 @@ public class Main2Activity extends AppCompatActivity{
         final Button ratbtn = (Button)findViewById(R.id.ratbtn);
         final TextView ratv = (TextView)findViewById(R.id.ratv);
         naver = (Button)findViewById(R.id.naver);
-        daum = (Button)findViewById(R.id.daum);
         google = (Button)findViewById(R.id.google);
         hywm = (Button)findViewById(R.id.hywm);
 
@@ -65,14 +64,6 @@ public class Main2Activity extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"));
-                startActivity(intent);
-            }
-        });
-
-        daum.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.daum.net"));
                 startActivity(intent);
             }
         });
@@ -189,6 +180,11 @@ public class Main2Activity extends AppCompatActivity{
 
     public void Fou(View vi){
         Intent i = new Intent(this , Main4Activity.class);
+        startActivity(i);
+    }
+
+    public void Six(View vi){
+        Intent i = new Intent(this , FragmentExampleActivity.class);
         startActivity(i);
     }
 }
