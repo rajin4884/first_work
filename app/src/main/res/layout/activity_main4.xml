@@ -143,7 +143,8 @@
             android:textColor="#EB0A0A"
             android:text="프레그먼트\n가기"
             android:layout_above="@+id/hidebtn"
-            android:layout_toEndOf="@+id/snum" />
+            android:layout_toEndOf="@+id/snum"
+            tools:ignore="HardcodedText" />
 
     </RelativeLayout>
 

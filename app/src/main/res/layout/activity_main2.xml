@@ -245,7 +245,8 @@
                             android:background="#00000000"
                             android:onClick="Six"
                             android:text="프레그먼트\n가기"
-                            android:textColor="#04B45F" />
+                            android:textColor="#04B45F"
+                            tools:ignore="ButtonStyle,HardcodedText,ObsoleteLayoutParam" />
 
                         <Button
                             android:id="@+id/naver"

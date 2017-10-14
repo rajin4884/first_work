@@ -12,7 +12,7 @@
         tools:layout_editor_absoluteY="8dp"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        tools:ignore="RtlHardcoded"
+        tools:ignore="MissingConstraints,RtlHardcoded"
         android:layout_marginEnd="8dp">
 
         <TabHost
@@ -157,7 +157,8 @@
             tools:layout_editor_absoluteY="464dp"
             android:layout_marginStart="11dp"
             android:layout_alignTop="@+id/button5"
-            android:layout_alignStart="@+id/tabh" />
+            android:layout_alignStart="@+id/tabh"
+            tools:ignore="HardcodedText" />
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

@@ -168,7 +168,7 @@
                 android:textColor="#045FB4"
                 android:textSize="40px"
                 android:textStyle="bold"
-                tools:ignore="HardcodedText,PxUsage"
+                tools:ignore="ButtonStyle,HardcodedText,PxUsage"
                 tools:layout_editor_absoluteX="8dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -183,7 +183,7 @@
                 android:textColor="#045FB4"
                 android:textSize="40px"
                 android:textStyle="bold"
-                tools:ignore="HardcodedText,PxUsage"
+                tools:ignore="ButtonStyle,HardcodedText,PxUsage"
                 tools:layout_editor_absoluteX="8dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -198,7 +198,7 @@
                 android:textColor="#045FB4"
                 android:textSize="40px"
                 android:textStyle="bold"
-                tools:ignore="HardcodedText,PxUsage"
+                tools:ignore="ButtonStyle,HardcodedText,PxUsage"
                 tools:layout_editor_absoluteX="8dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -212,7 +212,8 @@
                 android:background="#00000000"
                 android:onClick="Six"
                 android:text="프레그먼트\n가기"
-                android:textColor="#045FB4" />
+                android:textColor="#045FB4"
+                tools:ignore="ButtonStyle,HardcodedText,ObsoleteLayoutParam" />
 
         </LinearLayout>
 
