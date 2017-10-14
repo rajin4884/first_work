@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jhj.first_work.Main4Activity">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_below="@+id/showbtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/tom"
+            android:visibility="invisible"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#F5A9BC"
+                android:onClick="One"
+                android:text="라디오버튼"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:onClick="Two"
+                android:text="체크박스"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#F5A9BC"
+                android:onClick="Thr"
+                android:text="시간 달력"
+                tools:ignore="ButtonStyle,HardcodedText" />
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/showbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView1"
+            android:layout_below="@+id/snum"
+            android:layout_marginTop="14dp"
+            android:background="#00000000"
+            android:text="이미지 보이기"
+            android:textColor="#EB0A0A"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/hidebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView1"
+            android:layout_alignEnd="@+id/imageView1"
+            android:background="#00000000"
+            android:text="이미지 숨기기"
+            android:textColor="#EB0A0A"
+            android:visibility="invisible"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/snum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:text="정현진 소개페이지"
+            android:textColor="#000"
+            android:textSize="70px"
+            tools:ignore="HardcodedText,PxUsage" />
+
+        <Button
+            android:id="@+id/dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:drawableTop="@drawable/profile"
+            android:text="정보 보기"
+            android:visibility="invisible"
+            tools:ignore="HardcodedText,UnknownId"
+            android:layout_below="@+id/imageView1"
+            android:layout_alignStart="@+id/imageView1"
+            android:layout_marginStart="24dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginEnd="46dp"
+            android:layout_marginTop="6dp"
+            android:text="이미지 클릭 시 변경"
+            android:textColor="#000"
+            android:visibility="invisible"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

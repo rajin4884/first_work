@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jhj.first_work.Main2Activity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <Button
+            android:id="@+id/startbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="주문"
+            android:textColor="#5FB404"
+            android:textSize="40px"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,PxUsage" />
+
+        <Button
+            android:id="@+id/stopbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="그만"
+            android:textColor="#04B431"
+            android:textSize="40px"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,PxUsage" />
+
+        <Chronometer
+            android:id="@+id/chro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="골라보기(다음으로 넘어갈 때는 꼭 그만!)"
+            android:textColor="#000"
+            android:textSize="50px"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            tools:ignore="HardcodedText,PxUsage" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:id="@+id/tb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible">
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="98.75dp"
+                    android:layout_height="wrap_content"
+                    android:text="짜파게티"
+                    tools:ignore="HardcodedText" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="98.75dp"
+                    android:layout_height="wrap_content"
+                    android:text="짜왕"
+                    tools:ignore="HardcodedText" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="98.75dp"
+                    android:layout_height="wrap_content"
+                    android:text="너구리"
+                    tools:ignore="HardcodedText" />
+
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    android:layout_width="98.75dp"
+                    android:layout_height="wrap_content"
+                    android:text="진라면"
+                    tools:ignore="HardcodedText" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tb2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible">
+
+                <CheckBox
+                    android:id="@+id/checkBox7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="삼양라면"
+                    tools:ignore="HardcodedText" />
+
+                <CheckBox
+                    android:id="@+id/checkBox8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="불닭볶음"
+                    tools:ignore="HardcodedText" />
+
+                <CheckBox
+                    android:id="@+id/checkBox9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="신라면"
+                    tools:ignore="HardcodedText" />
+
+                <CheckBox
+                    android:id="@+id/checkBox10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="안성탕면"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/rsli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="invisible">
+
+                <Button
+                    android:id="@+id/selectbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#CEF6CE"
+                    android:text="선택 확인"
+                    android:textColor="#000"
+                    android:textSize="40px"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    tools:ignore="HardcodedText,PxUsage" />
+
+                <TextView
+                    android:id="@+id/rstv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="선택창"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    tools:ignore="HardcodedText,InefficientWeight" />
+
+                <Button
+                    android:id="@+id/ratbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#BCF5A9"
+                    android:text="별점주기"
+                    android:textColor="#000"
+                    android:textSize="40px"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,PxUsage" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ratv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="별점 주기"
+                    android:visibility="invisible"
+                    tools:ignore="HardcodedText" />
+
+                <RatingBar
+                    android:id="@+id/rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:isIndicator="false"
+                    android:max="5"
+                    android:numStars="5"
+                    android:rating="3"
+                    android:stepSize="0.5"
+                    android:visibility="invisible" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="↓사이트 이동↓"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="50px"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,PxUsage" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        tools:ignore="UselessParent">
+
+                        <Button
+                            android:id="@+id/naver"
+                            android:layout_width="98.75dp"
+                            android:layout_height="wrap_content"
+                            android:background="#E0F8E6"
+                            android:text="NAVER"
+                            tools:ignore="ButtonStyle,HardcodedText" />
+
+                        <Button
+                            android:id="@+id/daum"
+                            android:layout_width="98.75dp"
+                            android:layout_height="wrap_content"
+                            android:background="#A9F5D0"
+                            android:text="DAUM"
+                            tools:ignore="ButtonStyle,HardcodedText" />
+
+                        <Button
+                            android:id="@+id/google"
+                            android:layout_width="98.75dp"
+                            android:layout_height="wrap_content"
+                            android:background="#E0F8E6"
+                            android:text="GOOGLE"
+                            tools:ignore="ButtonStyle,HardcodedText" />
+
+                        <Button
+                            android:id="@+id/hywm"
+                            android:layout_width="98.75dp"
+                            android:layout_height="wrap_content"
+                            android:background="#A9F5D0"
+                            android:text="HYWM"
+                            tools:ignore="ButtonStyle,HardcodedText" />
+                    </TableRow>
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="↓페이지 이동↓"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="50px"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText,PxUsage" />
+
+                    <Button
+                        android:id="@+id/button28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:onClick="One"
+                        android:text="라디오버튼"
+                        android:textColor="#04B45F"
+                        android:textSize="40px"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText,PxUsage" />
+
+                    <Button
+                        android:id="@+id/button29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:onClick="Thr"
+                        android:text="시간,달력"
+                        android:textColor="#04B486"
+                        android:textSize="40px"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText,PxUsage" />
+
+                    <Button
+                        android:id="@+id/button30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:onClick="Fou"
+                        android:text="자기소개"
+                        android:textColor="#21610B"
+                        android:textSize="40px"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText,PxUsage" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

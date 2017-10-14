@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jhj.first_work.Main5Activity">
+
+
+    <LinearLayout
+        android:layout_width="391dp"
+        android:layout_height="578dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/marq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:text="Hello everyone, Hello everyone, Hello everyone, Hello everyone"
+                android:textColor="#51A9F1"
+                android:textSize="40px"
+                android:textStyle="bold"
+                tools:ignore="Deprecated,HardcodedText,PxUsage" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="고르시오."
+                android:textColor="#000"
+                android:textSize="50px"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText,PxUsage" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/Rgroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        tools:ignore="UselessParent">
+
+                        <RadioButton
+                            android:id="@+id/rbtn1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="톰 홀랜드"
+                            android:textColor="#5882FA"
+                            android:textStyle="bold"
+                            tools:layout_editor_absoluteX="8dp"
+                            tools:layout_editor_absoluteY="5dp"
+                            tools:ignore="HardcodedText" />
+
+                        <RadioButton
+                            android:id="@+id/rbtn2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="해리 스타일스"
+                            android:textColor="#0174DF"
+                            android:textStyle="bold"
+                            tools:layout_editor_absoluteX="107dp"
+                            tools:layout_editor_absoluteY="207dp"
+                            tools:ignore="HardcodedText" />
+
+                        <RadioButton
+                            android:id="@+id/rbtn4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="빌 스카스가드"
+                            android:textColor="#08088A"
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
+
+                        <RadioButton
+                            android:id="@+id/rbtn3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="크리스 파인"
+                            android:textColor="#013ADF"
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
+
+                        <RadioButton
+                            android:id="@+id/rbtn5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="잭 로우든"
+                            android:textColor="#0000FF"
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
+
+                        <RadioButton
+                            android:id="@+id/rbtn6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="에즈라 밀러"
+                            android:textColor="#5858FA"
+                            android:textStyle="bold"
+                            tools:ignore="HardcodedText" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/compbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#81BEF7"
+                    android:text="선택 완료"
+                    android:textColor="#000"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tom3"
+                    android:visibility="invisible"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="↓페이지 이동↓"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="50px"
+            tools:ignore="HardcodedText,PxUsage"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:onClick="Two"
+            android:text="체크박스"
+            android:textColor="#045FB4"
+            android:textSize="40px"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,PxUsage"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:onClick="Thr"
+            android:text="시간 달력"
+            android:textColor="#045FB4"
+            android:textSize="40px"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,PxUsage"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:onClick="Fou"
+            android:text="자기소개"
+            android:textColor="#045FB4"
+            android:textSize="40px"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,PxUsage"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
