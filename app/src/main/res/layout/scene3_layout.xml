@@ -45,10 +45,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="정현진"
-        android:textSize="100px"
         tools:ignore="HardcodedText,PxUsage"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="223dp" />
+        android:layout_marginTop="223dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="80px"/>
 
 </RelativeLayout>

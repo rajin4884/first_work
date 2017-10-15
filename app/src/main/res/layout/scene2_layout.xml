@@ -27,7 +27,8 @@
         android:layout_centerVertical="true"
         android:onClick="goToScene3"
         android:text="이름은?"
-        android:background="@drawable/button_button1"/>
+        android:background="@drawable/button_button1"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/button2"
@@ -38,7 +39,8 @@
         android:layout_alignParentStart="true"
         android:onClick="goToScene1"
         android:text="사진은?"
-        android:background="@drawable/button_button1"/>
+        android:background="@drawable/button_button1"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView6"
@@ -50,6 +52,7 @@
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
         android:textColor="#000"
-        android:textSize="80px"/>
+        android:textSize="80px"
+        tools:ignore="HardcodedText,PxUsage" />
 
 </RelativeLayout>

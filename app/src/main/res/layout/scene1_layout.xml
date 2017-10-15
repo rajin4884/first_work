@@ -61,5 +61,6 @@
         android:layout_below="@+id/imageView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="13dp"
-        android:text="안녕하세요" />
+        android:text="안녕하세요"
+        tools:ignore="HardcodedText" />
 </RelativeLayout>

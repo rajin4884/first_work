@@ -63,7 +63,7 @@
             android:layout_weight="1"
             android:text="Tab 1"
             android:background="@drawable/button_button1"
-            />
+            tools:ignore="ButtonStyle,HardcodedText" />
 
         <Button
             android:id="@+id/bt_tab2"
@@ -71,7 +71,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Tab 2"
-            android:background="@drawable/button_button1"/>
+            android:background="@drawable/button_button1"
+            tools:ignore="ButtonStyle,HardcodedText" />
 
     </LinearLayout>
 
