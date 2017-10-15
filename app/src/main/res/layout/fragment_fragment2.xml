@@ -17,21 +17,24 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="184dp"
+                android:layout_marginTop="149dp"
                 android:gravity="center"
-                android:text="scene" />
+                android:text="scene"
+                android:textStyle="bold"
+                android:textSize="80px"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
 
             <Button
                 android:id="@+id/btn4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:onClick="goToScene2"
+                android:text="Button"
                 android:layout_below="@+id/textView"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="31dp"
-                android:onClick="goToScene2"
-                android:text="Button" />
+                android:background="@drawable/button_button1"/>
         </RelativeLayout>
 
     </FrameLayout>

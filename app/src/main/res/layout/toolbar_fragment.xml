@@ -12,7 +12,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="17dp"
         android:text="Change Text"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:background="@drawable/button_button1"/>
 
     <EditText
         android:id="@+id/editText1"

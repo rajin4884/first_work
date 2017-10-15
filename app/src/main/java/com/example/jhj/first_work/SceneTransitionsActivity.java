@@ -1,7 +1,9 @@
 package com.example.jhj.first_work;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.transition.ChangeBounds;
 import android.transition.Scene;
 
 import android.transition.Transition;
@@ -40,6 +42,11 @@ public class SceneTransitionsActivity extends AppCompatActivity {
         scene3 = Scene.getSceneForLayout(rootContainer,
                 R.layout.scene3_layout, this);
 
+//        Transition myChangeBounds = new ChangeBounds();
+//        TransitionManager.go(scene2, myChangeBounds);
+//        TransitionManager.go(scene1, myChangeBounds);
+//        TransitionManager.go(scene3, myChangeBounds);
+
         scene1.enter();
 
     }
@@ -62,7 +69,14 @@ public class SceneTransitionsActivity extends AppCompatActivity {
     public void goToScene3 (View view)
     {
         TransitionManager.go(scene3, transitionMgr);
+
         //Toast.makeText(getApplicationContext(),
         //      "장면 전환 3에 도달함", Toast.LENGTH_LONG).show();
     }
+
+    public void Six(View vi){
+        Intent i = new Intent(this , FragmentExampleActivity.class);
+        startActivity(i);
+    }
+
 }

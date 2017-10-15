@@ -2,36 +2,54 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <Button
+        android:id="@+id/button14"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="464dp"
+        android:layout_width="99dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        android:onClick="Six"
+        android:text="프레그먼트\n가기"
+        android:textColor="#DF0101" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
         android:onClick="goToScene3"
-        android:text="Three"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="one"
-        android:id="@+id/button"
-        android:onClick="goToScene2"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/button2"
-        android:layout_alignParentEnd="true"/>
+        android:text="이름은?"
+        android:background="@drawable/button_button1"/>
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
         android:layout_alignParentStart="true"
         android:onClick="goToScene1"
-        android:text="Two" />
+        android:text="사진은?"
+        android:background="@drawable/button_button1"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="학교 : 한양여자대학교\n학과 : 정보경영과\n학번 : 216230111"
+        android:layout_above="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="80px"/>
 
 </RelativeLayout>

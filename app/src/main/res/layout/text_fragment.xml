@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Fragment Two"
+        android:text="프래그먼트 실행창"
         android:textAppearance="?android:attr/textAppearanceLarge"
         tools:ignore="HardcodedText" />
 

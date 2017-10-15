@@ -20,11 +20,11 @@ android:layout_width="match_parent" android:layout_height="match_parent">
             android:id="@+id/btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignStart="@+id/btn1"
-            android:layout_marginTop="84dp"
             android:text="체크박스"
-            android:background="@drawable/button_button1"/>
+            android:background="@drawable/button_button1"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true" />
 
         <Button
             android:id="@+id/btn1"
@@ -39,28 +39,30 @@ android:layout_width="match_parent" android:layout_height="match_parent">
             android:id="@+id/btn2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/btn1"
-            android:layout_below="@+id/btn1"
             android:text="시계달력"
-            android:background="@drawable/button_button1"/>
+            android:background="@drawable/button_button1"
+            android:layout_below="@+id/btn1"
+            android:layout_alignStart="@+id/btn1" />
 
         <Button
             android:id="@+id/btn3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="228dp"
             android:text="자기소개"
-            android:background="@drawable/button_button1"/>
+            android:background="@drawable/button_button1"
+            android:layout_below="@+id/btn2"
+            android:layout_alignStart="@+id/btn2" />
 
         <TextView
+            android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
             android:layout_marginTop="59dp"
-            android:text="프레그먼트" />
+            android:text="위젯 실행"
+            android:textSize="80px"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
     </RelativeLayout>
 
 </FrameLayout>
