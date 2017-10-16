@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tvck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/button21"
+        android:layout_alignTop="@+id/imageView2"
+        android:text="네네치킨, 굽네치킨, 페리카나, KFC, 멕시카나, 치킨도 먹고싶네, 피자나라 치킨공주"
+        android:textColor="#000"
+        android:textSize="45px"
+        android:textStyle="bold"
+        tools:ignore="Deprecated,HardcodedText,PxUsage" />
+
+    <TextView
+        android:id="@+id/tvhb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/button23"
+        android:layout_alignTop="@+id/imageView4"
+        android:text="버거쇼, 버거킹, 맥도날드, 롯데리아, 수제버거, 수제버거"
+        android:textColor="#000"
+        android:textSize="45px"
+        android:textStyle="bold"
+        tools:ignore="Deprecated,HardcodedText,PxUsage" />
+
+    <TextView
+        android:id="@+id/tvcf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/button22"
+        android:layout_alignTop="@+id/imageView3"
+        android:text="스타벅스, 엔제리너스, 카페베네, 커피빈, 커피베이, 할리갈리...."
+        android:textColor="#000"
+        android:textSize="45px"
+        android:textStyle="bold"
+        tools:ignore="Deprecated,HardcodedText,PxUsage" />
+
+    <TextView
+        android:id="@+id/tvpz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/button18"
+        android:layout_alignTop="@+id/imageView"
+        android:text="피자헛, 도미노피자, 피자나라 치킨공주, 알볼로피자, 현진피자, 피자먹고싶다."
+        android:textColor="#000"
+        android:textSize="45px"
+        android:textStyle="bold"
+        tools:ignore="Deprecated,HardcodedText,PxUsage" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignStart="@+id/button23"
+        android:background="@drawable/button_button2"
+        android:onClick="goToScene8"
+        android:text="햄버거\n메뉴창" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignStart="@+id/button22"
+        android:background="@drawable/button_button2"
+        android:onClick="goToScene7"
+        android:text="커피\n메뉴창" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignStart="@+id/button21"
+        android:background="@drawable/button_button2"
+        android:onClick="goToScene6"
+        android:text="치킨\n메뉴창" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView"
+        android:background="@drawable/button_button2"
+        android:onClick="goToScene5"
+        android:text="피자\n메뉴창" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="37dp"
+        app:srcCompat="@drawable/pizza"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/chicken"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/coffee"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/hamburger"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3" />
+</RelativeLayout>

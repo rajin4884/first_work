@@ -11,6 +11,7 @@ import android.transition.TransitionInflater;
 import android.transition.TransitionManager;
 import android.view.ViewGroup;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -20,12 +21,19 @@ public class SceneTransitionsActivity extends AppCompatActivity {
     Scene scene1;
     Scene scene2;
     Scene scene3;
+    Scene scene4;
+    Scene scene5;
+    Scene scene6;
+    Scene scene7;
+    Scene scene8;
+    Scene scene;
     Transition transitionMgr;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scene_transitions);
+
 
         rootContainer =
                 (ViewGroup) findViewById(R.id.rootContainer);
@@ -42,36 +50,78 @@ public class SceneTransitionsActivity extends AppCompatActivity {
         scene3 = Scene.getSceneForLayout(rootContainer,
                 R.layout.scene3_layout, this);
 
-//        Transition myChangeBounds = new ChangeBounds();
-//        TransitionManager.go(scene2, myChangeBounds);
-//        TransitionManager.go(scene1, myChangeBounds);
-//        TransitionManager.go(scene3, myChangeBounds);
+        scene4 = Scene.getSceneForLayout(rootContainer,
+                R.layout.scene4_layout, this);
 
-        scene1.enter();
+        scene5 = Scene.getSceneForLayout(rootContainer,
+                R.layout.scene5_layout, this);
+
+        scene6 = Scene.getSceneForLayout(rootContainer,
+                R.layout.scene6_layout, this);
+
+        scene7 = Scene.getSceneForLayout(rootContainer,
+                R.layout.scene7_layout, this);
+
+        scene8 = Scene.getSceneForLayout(rootContainer,
+                R.layout.scene8_layout, this);
+
+        scene = Scene.getSceneForLayout(rootContainer,
+                R.layout.scene_layout, this);
+
+        scene.enter();
 
     }
 
     public void goToScene2 (View view)
     {
         TransitionManager.go(scene2, transitionMgr);
-        //Toast.makeText(getApplicationContext(),
-        //      "장면 전환 2에 도달함", Toast.LENGTH_LONG).show();
 
     }
 
     public void goToScene1 (View view)
     {
         TransitionManager.go(scene1, transitionMgr);
-        //Toast.makeText(getApplicationContext(),
-        //      "장면 전환 1에 도달함", Toast.LENGTH_LONG).show();
     }
 
     public void goToScene3 (View view)
     {
         TransitionManager.go(scene3, transitionMgr);
 
-        //Toast.makeText(getApplicationContext(),
-        //      "장면 전환 3에 도달함", Toast.LENGTH_LONG).show();
+    }
+
+    public void goToScene4 (View view)
+    {
+        TransitionManager.go(scene4, transitionMgr);
+
+    }
+
+    public void goToScene5 (View view)
+    {
+        TransitionManager.go(scene5, transitionMgr);
+    }
+
+    public void goToScene6 (View view)
+    {
+        TransitionManager.go(scene6, transitionMgr);
+
+    }
+
+    public void goToScene (View view)
+    {
+        TransitionManager.go(scene, transitionMgr);
+
+    }
+
+    public void goToScene7 (View view)
+    {
+        TransitionManager.go(scene7, transitionMgr);
+
+    }
+
+    public void goToScene8 (View view)
+    {
+        TransitionManager.go(scene8, transitionMgr);
+
     }
 
     public void Six(View vi){

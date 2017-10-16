@@ -16,10 +16,12 @@ public class Fragment2 extends Fragment {
 
     Intent intent;
 
+
     public Fragment2() {
         // Required empty public constructor
 
     }
+    //
 
 
     @Override
@@ -38,6 +40,7 @@ public class Fragment2 extends Fragment {
                 startActivity(intent);
             }
         });
+
 
         return rootView;
     }

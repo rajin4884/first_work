@@ -8,15 +8,15 @@
         android:id="@+id/button17"
         android:layout_width="99dp"
         android:layout_height="48dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:background="#00000000"
         android:onClick="Six"
         android:text="프레그먼트\n가기"
         android:textColor="#DF0101"
         tools:ignore="HardcodedText"
         tools:layout_editor_absoluteX="253dp"
-        tools:layout_editor_absoluteY="464dp" />
+        tools:layout_editor_absoluteY="464dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView3" />
 
     <Button
         android:id="@+id/button"
