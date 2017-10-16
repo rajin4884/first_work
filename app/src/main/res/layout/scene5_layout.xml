@@ -16,7 +16,8 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="80dp">
+            android:layout_height="80dp"
+            tools:ignore="UselessParent">
 
             <TextView
                 android:id="@+id/textView15"
@@ -24,13 +25,15 @@
                 android:layout_height="match_parent"
                 android:text="피자스쿨"
                 android:textColor="#000"
-                android:textSize="50px" />
+                android:textSize="50px"
+                tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true">
+                android:layout_alignParentTop="true"
+                tools:ignore="ObsoleteLayoutParam">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -43,7 +46,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView44"
@@ -51,7 +55,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView18"
@@ -59,7 +64,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="HardcodedText,PxUsage" />
 
 
                     <TextView
@@ -68,7 +74,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView19"
@@ -76,7 +83,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView16"
@@ -84,7 +92,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView14"
@@ -93,7 +102,7 @@
                         android:text="1500kcal"
                         android:textColor="#000"
                         android:textSize="40px"
-                        tools:ignore="DuplicateIds" />
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
                 </LinearLayout>
             </ScrollView>
 
@@ -110,7 +119,8 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="80dp">
+            android:layout_height="80dp"
+            tools:ignore="UselessParent">
 
             <TextView
                 android:id="@+id/textView15"
@@ -118,13 +128,15 @@
                 android:layout_height="match_parent"
                 android:text="명동 피자"
                 android:textColor="#000"
-                android:textSize="50px" />
+                android:textSize="50px"
+                tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true">
+                android:layout_alignParentTop="true"
+                tools:ignore="ObsoleteLayoutParam">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -137,7 +149,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView44"
@@ -145,7 +158,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView18"
@@ -153,7 +167,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
 
                     <TextView
@@ -162,7 +177,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView19"
@@ -170,7 +186,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView16"
@@ -178,7 +195,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView14"
@@ -186,7 +204,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
                 </LinearLayout>
             </ScrollView>
 
@@ -203,7 +222,8 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="80dp">
+            android:layout_height="80dp"
+            tools:ignore="UselessParent">
 
             <TextView
                 android:id="@+id/textView15"
@@ -211,13 +231,15 @@
                 android:layout_height="match_parent"
                 android:text="런드리 피자"
                 android:textColor="#000"
-                android:textSize="50px" />
+                android:textSize="50px"
+                tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true">
+                android:layout_alignParentTop="true"
+                tools:ignore="ObsoleteLayoutParam">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -230,7 +252,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView44"
@@ -238,7 +261,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView18"
@@ -246,7 +270,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
 
                     <TextView
@@ -255,7 +280,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView19"
@@ -263,7 +289,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView16"
@@ -271,7 +298,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView14"
@@ -279,7 +307,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
                 </LinearLayout>
             </ScrollView>
 
@@ -296,7 +325,8 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="80dp">
+            android:layout_height="80dp"
+            tools:ignore="UselessParent">
 
             <TextView
                 android:id="@+id/textView15"
@@ -304,13 +334,15 @@
                 android:layout_height="match_parent"
                 android:text="피치 칼로리"
                 android:textColor="#000"
-                android:textSize="50px" />
+                android:textSize="50px"
+                tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true">
+                android:layout_alignParentTop="true"
+                tools:ignore="ObsoleteLayoutParam">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -323,7 +355,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView44"
@@ -331,7 +364,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView18"
@@ -339,7 +373,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
 
                     <TextView
@@ -348,7 +383,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView19"
@@ -356,7 +392,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView16"
@@ -364,7 +401,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView14"
@@ -372,7 +410,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
                 </LinearLayout>
             </ScrollView>
 
@@ -389,7 +428,8 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="80dp">
+            android:layout_height="80dp"
+            tools:ignore="UselessParent">
 
             <TextView
                 android:id="@+id/textView15"
@@ -397,13 +437,15 @@
                 android:layout_height="match_parent"
                 android:text="도미노 칼로리"
                 android:textColor="#000"
-                android:textSize="50px" />
+                android:textSize="50px"
+                tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true">
+                android:layout_alignParentTop="true"
+                tools:ignore="ObsoleteLayoutParam">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -416,7 +458,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView44"
@@ -424,7 +467,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView18"
@@ -432,7 +476,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
 
                     <TextView
@@ -441,7 +486,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView19"
@@ -449,7 +495,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView16"
@@ -457,7 +504,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView14"
@@ -465,7 +513,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
                 </LinearLayout>
             </ScrollView>
 
@@ -480,7 +529,8 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="80dp">
+            android:layout_height="80dp"
+            tools:ignore="UselessParent">
 
             <TextView
                 android:id="@+id/textView15"
@@ -488,13 +538,15 @@
                 android:layout_height="match_parent"
                 android:text="피자헛 칼로리"
                 android:textColor="#000"
-                android:textSize="50px" />
+                android:textSize="50px"
+                tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true">
+                android:layout_alignParentTop="true"
+                tools:ignore="ObsoleteLayoutParam">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -507,7 +559,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView44"
@@ -515,7 +568,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView18"
@@ -523,7 +577,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
 
                     <TextView
@@ -532,7 +587,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView19"
@@ -540,7 +596,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView16"
@@ -548,7 +605,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
 
                     <TextView
                         android:id="@+id/textView14"
@@ -556,7 +614,8 @@
                         android:layout_height="wrap_content"
                         android:text="1500kcal"
                         android:textColor="#000"
-                        android:textSize="40px" />
+                        android:textSize="40px"
+                        tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
                 </LinearLayout>
             </ScrollView>
 
