@@ -8,14 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class Fragment1 extends Fragment {
 
 
     public Fragment1() {
-        // Required empty public constructor
 
     }
 

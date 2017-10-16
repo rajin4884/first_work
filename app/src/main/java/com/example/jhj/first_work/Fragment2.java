@@ -9,19 +9,16 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class Fragment2 extends Fragment {
 
     Intent intent;
 
 
     public Fragment2() {
-        // Required empty public constructor
+
 
     }
-    //
+
 
 
     @Override

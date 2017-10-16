@@ -5,15 +5,12 @@ import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.SystemClock;
-import android.support.annotation.StringDef;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutCompat;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.Chronometer;
-import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TableRow;
@@ -26,7 +23,7 @@ public class Main2Activity extends AppCompatActivity{
     TableRow tb1, tb2;
     LinearLayout rsli;
     Chronometer chro;
-    Button naver, daum, google, hywm;
+    Button naver,google, hywm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

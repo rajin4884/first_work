@@ -3,7 +3,6 @@ package com.example.jhj.first_work;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.transition.ChangeBounds;
 import android.transition.Scene;
 
 import android.transition.Transition;
@@ -11,9 +10,6 @@ import android.transition.TransitionInflater;
 import android.transition.TransitionManager;
 import android.view.ViewGroup;
 import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
-
 
 public class SceneTransitionsActivity extends AppCompatActivity {
 
