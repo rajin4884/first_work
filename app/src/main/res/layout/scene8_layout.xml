@@ -23,7 +23,7 @@
                 android:id="@+id/textView15"
                 android:layout_width="200dp"
                 android:layout_height="match_parent"
-                android:text="피자스쿨"
+                android:text="서브웨이 칼로리"
                 android:textColor="#000"
                 android:textSize="50px"
                 tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
@@ -126,7 +126,7 @@
                 android:id="@+id/textView15"
                 android:layout_width="200dp"
                 android:layout_height="match_parent"
-                android:text="명동 피자"
+                android:text="쟈니로켓 칼로리"
                 android:textColor="#000"
                 android:textSize="50px"
                 tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
@@ -229,7 +229,7 @@
                 android:id="@+id/textView15"
                 android:layout_width="200dp"
                 android:layout_height="match_parent"
-                android:text="런드리 피자"
+                android:text="맥도날드 칼로리"
                 android:textColor="#000"
                 android:textSize="50px"
                 tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
@@ -332,7 +332,7 @@
                 android:id="@+id/textView15"
                 android:layout_width="200dp"
                 android:layout_height="match_parent"
-                android:text="피치 칼로리"
+                android:text="롯데리아 칼로리"
                 android:textColor="#000"
                 android:textSize="50px"
                 tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
@@ -435,7 +435,7 @@
                 android:id="@+id/textView15"
                 android:layout_width="200dp"
                 android:layout_height="match_parent"
-                android:text="도미노 칼로리"
+                android:text="버거쇼 칼로리"
                 android:textColor="#000"
                 android:textSize="50px"
                 tools:ignore="DuplicateIds,HardcodedText,PxUsage" />
@@ -536,7 +536,7 @@
                 android:id="@+id/textView15"
                 android:layout_width="200dp"
                 android:layout_height="match_parent"
-                android:text="피자헛 칼로리"
+                android:text="버거킹 칼로리"
                 android:textColor="#000"
                 android:textSize="50px"
                 tools:ignore="DuplicateIds,HardcodedText,PxUsage" />

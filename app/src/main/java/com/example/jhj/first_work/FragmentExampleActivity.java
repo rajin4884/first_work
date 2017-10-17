@@ -24,7 +24,7 @@ public class FragmentExampleActivity extends FragmentActivity
         bt_tab1 = (Button)findViewById(R.id.bt_tab1);
         bt_tab2 = (Button)findViewById(R.id.bt_tab2);
 
-        // 탭 버튼에 대한 리스너 연결
+
         bt_tab1.setOnClickListener(this);
         bt_tab2.setOnClickListener(this);
 
@@ -36,12 +36,13 @@ public class FragmentExampleActivity extends FragmentActivity
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.bt_tab1 :
-                // '버튼1' 클릭 시 '프래그먼트1' 호출
+                // 버튼 클릭시 프래그먼트1호출
+
                 callFragment(FRAGMENT1);
                 break;
 
             case R.id.bt_tab2 :
-                // '버튼2' 클릭 시 '프래그먼트2' 호출
+                // 버튼 클릭시 프래그먼트2 호출
                 callFragment(FRAGMENT2);
                 break;
         }
@@ -49,19 +50,19 @@ public class FragmentExampleActivity extends FragmentActivity
 
     private void callFragment(int frament_no){
 
-        // 프래그먼트 사용을 위해
+        // 프래그먼트 사용하기 위해
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 
         switch (frament_no){
             case 1:
-                // '프래그먼트1' 호출
+                // 프래그1 호출
                 Fragment1 fragment1 = new Fragment1();
                 transaction.replace(R.id.fragment_container, fragment1);
                 transaction.commit();
                 break;
 
             case 2:
-                // '프래그먼트2' 호출
+                // 프래그2 호출
                 Fragment2 fragment2 = new Fragment2();
                 transaction.replace(R.id.fragment_container, fragment2);
                 transaction.commit();

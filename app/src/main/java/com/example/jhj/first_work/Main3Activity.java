@@ -32,6 +32,8 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
         TabHost tabho = (TabHost)findViewById(R.id.tabh);
         tabho.setup();
 
+        //탭을 구분할 id 는 setIndicator 이며 컨트롤을 추가는
+        //setContent 함수를 사용하면 된다.
         TabHost.TabSpec tab1 = tabho.newTabSpec("1").setContent(R.id.tab1).setIndicator("TimePicker");
         TabHost.TabSpec tab2 = tabho.newTabSpec("2").setContent(R.id.tab2).setIndicator("DatePicker");
 
@@ -45,6 +47,7 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
         dpoutput = (Button)findViewById(R.id.dpoutput);
         tmtv = (TextView)findViewById(R.id.tmtv);
 
+        //달력설정
         c = Calendar.getInstance();
         int year = c.get(c.YEAR);
         int month = c.get(c.MONTH);
@@ -53,6 +56,7 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
         int minute = c.get(c.MINUTE);
 
 
+        //기본 시간,날짜
         dptv.setText("설정 날짜 : \n"+ year + "/" + (month+1)+"/"+dayOfMonth);
         dpoutput.setOnClickListener(this);
 
@@ -84,6 +88,8 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
         startActivity(i);
     }
 
+
+//날짜
     @Override
     public void onClick(View v) {
         dptv.setText("선택된 날짜: \n");
@@ -93,6 +99,7 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
 
     }
 
+    //설정된 시간이 실시간으로 바뀌도록
     @Override
     public void onTimeChanged(TimePicker view, int hourOfDay, int minute) {
         tmtv.setText("\n현재 설정된 시각: \n" + hourOfDay +":"+minute);

@@ -19,9 +19,6 @@ import android.widget.TextView;
 
 public class Main2Activity extends AppCompatActivity{
 
-    TextView tv3;
-    TableRow tb1, tb2;
-    LinearLayout rsli;
     Chronometer chro;
     Button naver,google, hywm;
 
@@ -39,6 +36,7 @@ public class Main2Activity extends AppCompatActivity{
         final CheckBox cb6 = (CheckBox)findViewById(R.id.checkBox8);
         final CheckBox cb7 = (CheckBox)findViewById(R.id.checkBox9);
         final CheckBox cb8 = (CheckBox)findViewById(R.id.checkBox10);
+
         final TextView tv3 = (TextView)findViewById(R.id.tv3);
         final TableRow tb1 = (TableRow) findViewById(R.id.tb1);
         final TableRow tb2 = (TableRow) findViewById(R.id.tb2);
@@ -48,10 +46,12 @@ public class Main2Activity extends AppCompatActivity{
         final LinearLayout rsli = (LinearLayout)findViewById(R.id.rsli);
         chro = (Chronometer) findViewById(R.id.chro);
         Button stopbtn = (Button)findViewById(R.id.stopbtn);
+
         final MediaPlayer mp = MediaPlayer.create(getBaseContext(),R.raw.conan);
         final RatingBar rating = (RatingBar)findViewById(R.id.rating);
         final Button ratbtn = (Button)findViewById(R.id.ratbtn);
         final TextView ratv = (TextView)findViewById(R.id.ratv);
+
         naver = (Button)findViewById(R.id.naver);
         google = (Button)findViewById(R.id.google);
         hywm = (Button)findViewById(R.id.hywm);
