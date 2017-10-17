@@ -150,7 +150,7 @@ public class Main2Activity extends AppCompatActivity{
                 chro.setTextColor(Color.BLUE);
 
 
-                String result = "";  // 결과를 출력할 문자열  ,  항상 스트링은 빈문자열로 초기화 하는 습관을 가지자
+                String result = "";  // 결과를 출력할 문자열  항상 스트링은 빈문자열로 초기화 하는 습관
                 if(cb1.isChecked() == true) result += cb1.getText().toString();
                 if(cb2.isChecked() == true) result += cb2.getText().toString();
                 if(cb3.isChecked() == true) result += cb3.getText().toString();

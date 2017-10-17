@@ -104,6 +104,8 @@ public class Main4Activity extends AppCompatActivity implements View.OnClickList
         ad.setTitle("정현진 정보");
         ad.setMessage("한양여자대학교 \n정보경영과 2-C \n학번 216230111\n좋아하는 것: 자는 것");
         ad.setNegativeButton("그만보기",null);
+
+       // Back키 눌렀을 경우 Dialog Cancle 여부 설정
         ad.setCancelable(false);
         ad.show();
     }

@@ -48,6 +48,7 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
         tmtv = (TextView)findViewById(R.id.tmtv);
 
         //달력설정
+        //달력에서 현재시간을 가지고옴
         c = Calendar.getInstance();
         int year = c.get(c.YEAR);
         int month = c.get(c.MONTH);
